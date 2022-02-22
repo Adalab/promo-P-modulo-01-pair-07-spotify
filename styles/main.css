@@ -35,3 +35,7 @@
   color: white;
   font-size: 10px;
 }
+
+.list {
+  list-style-type: none;
+}
