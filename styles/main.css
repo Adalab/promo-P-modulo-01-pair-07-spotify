@@ -1,21 +1,37 @@
+:root {
+}
+
 .header {
   background-color: black;
   color: white;
+  padding: 40px;
 }
 
 .menu_header .link {
   text-decoration: none;
   color: white;
   list-style: none;
-}
-
-.body {
-  background-color: rgb(142, 182, 235);
+  padding: 85px;
 }
 
 .title {
   color: white;
   font-size: 50px;
+}
+
+.seccion1 {
+  background-color: rgb(64, 115, 224);
+  padding: 1cm;
+}
+
+.seccion2 {
+  padding: 1cm;
+}
+
+.section3 {
+  padding: 1cm;
+  background-color: black;
+  color: white;
 }
 
 .firstp {
@@ -38,4 +54,22 @@
 
 .list {
   list-style-type: none;
+}
+
+.dancer {
+  float: right;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.cabecera {
+  padding: 50px;
+}
+
+.logo_spotify {
+  width: auto;
+  height: 30px;
 }
