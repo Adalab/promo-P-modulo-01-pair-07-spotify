@@ -33,7 +33,7 @@
 .section3 {
   padding: 1cm;
   background-color: black;
-  color: white;
+  color: grey;
 }
 
 .firstp {
@@ -77,11 +77,18 @@
   height: 30px;
 }
 
+
 /* prueba*/
 
 .bottom_right {
   display: block;
   orientation: right;
-  padding: 30px;
-  margin-left: 1300px;
+  text-align: right;
+ 
+}
+
+.logo_bandera {
+  width: auto;
+  height: 15px;
+  margin-left: 8px;
 }
