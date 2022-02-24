@@ -9,11 +9,16 @@
   padding: 40px;
 }
 
+.container-1 {
+  display: flex;
+  list-style: none;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
 .menu_header .link {
   text-decoration: none;
   color: white;
-  list-style: none;
-  padding: 85px;
+  padding: 70px;
 }
 
 .title {
@@ -23,7 +28,9 @@
 
 .seccion1 {
   background-color: rgb(64, 115, 224);
-  padding: 1cm;
+  display: flex;
+  height: 50vh;
+  flex-direction: row;
 }
 
 .seccion2 {
@@ -45,7 +52,6 @@
   color: white;
   background-color: rgb(59, 168, 59);
   border-radius: 20px;
-  display: inline-block;
   padding: 10px;
 }
 
@@ -59,13 +65,21 @@
 }
 
 .dancer {
-  float: right;
-  back
+  height: 100%;
+  order: 1;
+  align-items: flex-end;
 }
-
 .link {
   color: white;
   text-decoration: none;
+}
+.container-blue {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  width: 80%;
+  align-items: flex-start;
+  padding-left: 100px;
 }
 
 .cabecera {
@@ -77,14 +91,10 @@
   height: 30px;
 }
 
-
-/* prueba*/
-
 .bottom_right {
-  display: block;
+  display: flex;
   orientation: right;
   text-align: right;
- 
 }
 
 .logo_bandera {
