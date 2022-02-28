@@ -67,6 +67,13 @@
   width: 70px;
   height: 100px;
 }
+.footer {
+  padding: 20px;
+}
+.grupo-enlaces {
+  list-style: none;
+  text-decoration: none;
+}
 
 @media all and (min-width: 480px) and (max-width: 1000px) {
   .section-1 {
