@@ -41,6 +41,14 @@
   color: white;
   padding: 20px;
 }
+.h2-blue {
+  width: 80%;
+}
+.h2-white {
+  text-align: center;
+  width: 60%;
+  padding-left: 80px;
+}
 .show-plans {
   color: white;
   background-color: rgb(59, 168, 59);
@@ -58,11 +66,20 @@
   justify-content: center;
   align-content: center;
 }
+.box-text-icons {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
 .article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
+
 .icons {
   width: 70px;
   height: 100px;
